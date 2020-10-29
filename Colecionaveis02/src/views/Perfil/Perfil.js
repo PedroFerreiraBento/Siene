@@ -36,6 +36,11 @@ function Perfil({ navigation }) {
                         style={estiloPerfil.imagemPerfil}
                         source={require('../../../assets/imagens/ju.jpg')}
                         />
+                    <Text style={estiloPerfil.texto2}>Andressa Oliveira dos Santos</Text>
+                    <Image
+                        style={estiloPerfil.imagemPerfil}
+                        source={require('../../../assets/imagens/andressa.jpg')}
+                        />
                     <Text style={estiloPerfil.texto2}>Pedro Herique Ferreira Bento</Text>
                     <Image
                         style={estiloPerfil.imagemPerfil}
