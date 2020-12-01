@@ -48,9 +48,6 @@ function Perfil({ navigation }) {
                         style={estiloPerfil.imagemPerfil}
                         source={require('../../../assets/imagens/pedro.jpg')}
                         />
-                    <TouchableOpacity style={estiloPerfil.botaoContainer} onPress={voltar}>
-                        <Text style={estiloPerfil.botaoTexto}>Voltar</Text>
-                    </TouchableOpacity>
                 
                 </View >
             </ScrollView>

@@ -1,19 +1,19 @@
 import { StyleSheet } from 'react-native';
-import Contants from 'expo-constants'
+import Constants from 'expo-constants'
 
 const estiloInicial = StyleSheet.create({
    container: {   
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',     
-      paddingTop: Contants.statusBarHeight,
+      width:"100%",
+      paddingTop: Constants.statusBarHeight,
    },
    containerC: {   
-      flex: 1,
-      justifyContent: 'center',
-      paddingTop: Contants.statusBarHeight,
-      alignItems: 'center',     
       width:"100%",
+      flex: 1,
+      flexDirection: 'column',
+      justifyContent: 'space-between',
    },
    header: {
       height: 50,
@@ -26,12 +26,14 @@ const estiloInicial = StyleSheet.create({
    },
    fundo: {   
       backgroundColor: '#f2f2f2',
-      flexDirection: 'row',
+      flexDirection: "column",
       alignItems: 'center',
-      justifyContent: 'space-evenly',
-      width: '100%',
+      justifyContent: 'center',
+      width:"100%",
       height: '100%',
-      left:0
+   },
+   scrollver:{
+      width: '60%',
    },
    texto: {
       padding: 15,

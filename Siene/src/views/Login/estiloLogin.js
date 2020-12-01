@@ -8,9 +8,9 @@ const estiloLogin = StyleSheet.create({
       paddingTop: Constants.statusBarHeight        
    },
    fundo: {
+       flex: 1,
       justifyContent: 'center',
       width: '100%',
-      height: '100%',
       backgroundColor: '#f2f2f2',
     },
    logoContainer: {
@@ -90,9 +90,8 @@ const estiloLogin = StyleSheet.create({
       fontWeight: "bold"
    },
    buttonsC: {
-      flex:1,
       justifyContent: "center",
-      flexDirection: "row"
+      flexDirection: "row",
    },
 });
 
